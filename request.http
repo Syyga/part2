@@ -1,0 +1,38 @@
+
+POST   http://localhost:8001/blogs
+Content-Type: application/json
+
+{
+  "title": "테3123123스트 ",
+  "content": "test12321.",
+  "author": "1212312312"
+}
+
+
+###
+GET http://localhost:8001/blogs
+
+
+###
+
+
+GET http://localhost:8001/blogs/67860337a4179bc75966c9d1
+
+
+###
+
+
+PATCH http://localhost:8001/blogs/67860337a4179bc75966c9d1
+Content-Type: application/json
+
+{
+  "title": "수정 후",
+  "content": "123123123"
+}
+
+
+
+###
+
+
+DELETE http://localhost:8001/blogs/67860337a4179bc75966c9d1
